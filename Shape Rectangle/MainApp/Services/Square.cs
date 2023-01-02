@@ -1,7 +1,7 @@
 using System;
 public class Square : Rectangle
 {
-    public double side = 1.0;
+    protected double side = 1.0;
     public Square()
     {
 
@@ -26,11 +26,11 @@ public class Square : Rectangle
     }
     public void SetWidth(double side)
     {
-        this.side = side;
+        this.width = side;
     }
     public void SetLength(double side)
     {
-        this.side = side;
+        this.length = side;
     }
     public override string ToString()
     {

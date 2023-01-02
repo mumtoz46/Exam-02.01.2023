@@ -1,7 +1,7 @@
 public class Rectangle : Shape
 {
-    public double width = 1.0;
-    public double length = 1.0;
+    protected double width = 1.0;
+    protected double length = 1.0;
     public Rectangle()
     {
 

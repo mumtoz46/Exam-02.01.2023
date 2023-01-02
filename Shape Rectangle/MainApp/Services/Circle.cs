@@ -1,7 +1,7 @@
 using System.Drawing;
 public class Circle : Shape
 {
-    public double radius = 1.0;
+    protected double radius = 1.0;
     public Circle()
     {
 
@@ -18,10 +18,7 @@ public class Circle : Shape
     {
         return radius;
     }
-    // public void SetRadius(double radius)
-    // {
-    //     this.radius = radius;
-    // }
+
     public override double GetArea()
     {
          return radius * radius * Math.PI;
